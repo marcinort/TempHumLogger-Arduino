@@ -1,0 +1,122 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\eightanaloginputs"
+  },
+  {
+    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Include": "DHT.h",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\DHT"
+  },
+  {
+    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Include": "OneWire.h",
+    "Includepath": "C:\\Users\\J\u0026M\\Documents\\Arduino\\libraries\\OneWire"
+  },
+  {
+    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Include": "DS18B20.h",
+    "Includepath": "C:\\Users\\J\u0026M\\Documents\\Arduino\\libraries\\DS18B20"
+  },
+  {
+    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\SPI\\src"
+  },
+  {
+    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Include": "SD.h",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\libraries\\SD\\src"
+  },
+  {
+    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\Wire\\src"
+  },
+  {
+    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Include": "DS1307.h",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\DS1307"
+  },
+  {
+    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Include": "LiquidCrystal_I2C.h",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\LiquidCrystal_I2C"
+  },
+  {
+    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\DHT\\DHT.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\J\u0026M\\Documents\\Arduino\\libraries\\OneWire\\OneWire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\J\u0026M\\Documents\\Arduino\\libraries\\DS18B20\\DS18B20.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\SPI\\src\\SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\SD\\src\\File.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\SD\\src\\SD.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\SD\\src\\utility\\Sd2Card.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\SD\\src\\utility\\SdFile.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\SD\\src\\utility\\SdVolume.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\Wire\\src\\utility\\twi.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\DS1307\\DS1307.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\LiquidCrystal_I2C\\LiquidCrystal_I2C.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
