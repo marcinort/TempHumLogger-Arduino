@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#line 1 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino"
+#line 1 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino"
 #include "DHT.h"
 
 #include "OneWire.h"
@@ -22,7 +22,7 @@ byte t0 = 0, t1 = 0, deltat = 0;
 byte month = 0, day = 0, hour = 0, minute = 0, second = 0;
 byte interval = 10; // interval time between measurements
 
-char path[25];
+char path[25]; //path for file saving
 
 DHT dht;
 DS1307 clock;
@@ -65,17 +65,17 @@ byte hum[8] = {
 
 byte address[8] = {0x28, 0x9A, 0xBA, 0xA7, 0xC, 0x0, 0x0, 0x6}; // DS18B20 Address
 
-#line 66 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino"
+#line 66 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino"
 void setup();
-#line 131 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino"
+#line 131 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino"
 void loop();
-#line 213 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino"
+#line 213 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino"
 float Measurement();
-#line 225 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino"
+#line 225 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino"
 byte DateRead();
-#line 236 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino"
+#line 236 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino"
 void LoggerSave(char path[], int year, byte month, byte day, byte hour, byte minute, float t, float h, float DStemp);
-#line 66 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino"
+#line 66 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino"
 void setup()
 {
     //Serial communication (for debugging)

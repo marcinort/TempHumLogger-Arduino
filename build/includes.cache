@@ -10,47 +10,47 @@
     "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\eightanaloginputs"
   },
   {
-    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Sourcefile": "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
     "Include": "DHT.h",
     "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\DHT"
   },
   {
-    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Sourcefile": "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
     "Include": "OneWire.h",
     "Includepath": "C:\\Users\\J\u0026M\\Documents\\Arduino\\libraries\\OneWire"
   },
   {
-    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Sourcefile": "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
     "Include": "DS18B20.h",
     "Includepath": "C:\\Users\\J\u0026M\\Documents\\Arduino\\libraries\\DS18B20"
   },
   {
-    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Sourcefile": "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
     "Include": "SPI.h",
     "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\SPI\\src"
   },
   {
-    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Sourcefile": "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
     "Include": "SD.h",
     "Includepath": "C:\\Program Files (x86)\\Arduino\\libraries\\SD\\src"
   },
   {
-    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Sourcefile": "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
     "Include": "Wire.h",
     "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\Wire\\src"
   },
   {
-    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Sourcefile": "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
     "Include": "DS1307.h",
     "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\DS1307"
   },
   {
-    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Sourcefile": "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
     "Include": "LiquidCrystal_I2C.h",
     "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\LiquidCrystal_I2C"
   },
   {
-    "Sourcefile": "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
+    "Sourcefile": "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\build\\sketch\\TempHumLogger.ino.cpp",
     "Include": "",
     "Includepath": null
   },

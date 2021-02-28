@@ -1,4 +1,4 @@
-d:\Marcin\Programowanie\Arduino\Projects\TempHumLogger\build\core\CDC.cpp.o: \
+d:\Marcin\Programowanie\GitHub\Arduino\TempHumLogger\build\core\CDC.cpp.o: \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\CDC.cpp \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBAPI.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\Arduino.h \

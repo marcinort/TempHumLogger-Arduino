@@ -1,4 +1,4 @@
-d:\Marcin\Programowanie\Arduino\Projects\TempHumLogger\build\libraries\DS18B20\DS18B20.cpp.o: \
+d:\Marcin\Programowanie\GitHub\Arduino\TempHumLogger\build\libraries\DS18B20\DS18B20.cpp.o: \
  C:\Users\J&M\Documents\Arduino\libraries\DS18B20\DS18B20.cpp \
  C:\Users\J&M\Documents\Arduino\libraries\DS18B20\DS18B20.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \

@@ -20,7 +20,7 @@ byte t0 = 0, t1 = 0, deltat = 0;
 byte month = 0, day = 0, hour = 0, minute = 0, second = 0;
 byte interval = 10; // interval time between measurements
 
-char path[25];
+char path[25]; //path for file saving
 
 DHT dht;
 DS1307 clock;

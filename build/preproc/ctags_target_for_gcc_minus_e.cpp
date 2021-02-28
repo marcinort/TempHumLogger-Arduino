@@ -1,16 +1,16 @@
-# 1 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino"
-# 2 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino" 2
+# 1 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino"
+# 2 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino" 2
 
-# 4 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino" 2
-# 5 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino" 2
+# 4 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino" 2
+# 5 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino" 2
 
-# 7 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino" 2
-# 8 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino" 2
+# 7 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino" 2
+# 8 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino" 2
 
-# 10 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino" 2
-# 11 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino" 2
+# 10 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino" 2
+# 11 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino" 2
 
-# 13 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino" 2
+# 13 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino" 2
 
 
 
@@ -21,7 +21,7 @@ byte t0 = 0, t1 = 0, deltat = 0;
 byte month = 0, day = 0, hour = 0, minute = 0, second = 0;
 byte interval = 10; // interval time between measurements
 
-char path[25];
+char path[25]; //path for file saving
 
 DHT dht;
 DS1307 clock;
@@ -95,7 +95,7 @@ void setup()
     if (!clock.isReady())
     {
         // Set sketch compiling time
-        clock.setDateTime("Feb 28 2021", "17:08:11");
+        clock.setDateTime("Feb 28 2021", "23:14:07");
     }
 
     //SD card initialize
@@ -191,7 +191,7 @@ void loop()
     }
 
 */
-# 166 "d:\\Marcin\\Programowanie\\Arduino\\Projects\\TempHumLogger\\TempHumLogger.ino"
+# 166 "d:\\Marcin\\Programowanie\\GitHub\\Arduino\\TempHumLogger\\TempHumLogger.ino"
     // LCD dispaly
 
     lcd.setCursor(0, 0);

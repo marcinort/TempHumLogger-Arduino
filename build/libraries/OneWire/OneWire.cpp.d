@@ -1,4 +1,4 @@
-d:\Marcin\Programowanie\Arduino\Projects\TempHumLogger\build\libraries\OneWire\OneWire.cpp.o: \
+d:\Marcin\Programowanie\GitHub\Arduino\TempHumLogger\build\libraries\OneWire\OneWire.cpp.o: \
  C:\Users\J&M\Documents\Arduino\libraries\OneWire\OneWire.cpp \
  C:\Users\J&M\Documents\Arduino\libraries\OneWire\OneWire.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \

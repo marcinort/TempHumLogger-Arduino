@@ -1,4 +1,4 @@
-d:\Marcin\Programowanie\Arduino\Projects\TempHumLogger\build\libraries\SD\utility\SdVolume.cpp.o: \
+d:\Marcin\Programowanie\GitHub\Arduino\TempHumLogger\build\libraries\SD\utility\SdVolume.cpp.o: \
  C:\Program\ Files\ (x86)\Arduino\libraries\SD\src\utility\SdVolume.cpp \
  C:\Program\ Files\ (x86)\Arduino\libraries\SD\src\utility\SdFat.h \
  C:\Program\ Files\ (x86)\Arduino\libraries\SD\src\utility\Sd2Card.h \

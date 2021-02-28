@@ -1,4 +1,4 @@
-d:\Marcin\Programowanie\Arduino\Projects\TempHumLogger\build\libraries\DS1307\DS1307.cpp.o: \
+d:\Marcin\Programowanie\GitHub\Arduino\TempHumLogger\build\libraries\DS1307\DS1307.cpp.o: \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\DS1307\DS1307.cpp \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/binary.h \
