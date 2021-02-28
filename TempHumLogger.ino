@@ -20,6 +20,8 @@ byte t0 = 0, t1 = 0, deltat = 0;
 byte month = 0, day = 0, hour = 0, minute = 0, second = 0;
 byte interval = 10; // interval time between measurements
 
+char path[25];
+
 DHT dht;
 DS1307 clock;
 RTCDateTime dt;
@@ -63,7 +65,7 @@ byte address[8] = {0x28, 0x9A, 0xBA, 0xA7, 0xC, 0x0, 0x0, 0x6}; // DS18B20 Addre
 
 void setup()
 {
-
+    //Serial communication (for debugging)
     //Serial.begin(9600);
     //Serial.println("Serial initialized");
 
@@ -102,12 +104,15 @@ void setup()
     // File header
     DateRead();
 
-    //Serial.println("Data to save: ");
-    //Serial.println(String("Date(YYYY-MM-DD): ") + year + "-" + month + "-" + day);
-    //Serial.println(String("Time(HH:MM:SS): ") + hour + ":" + minute + ":" + second);
-    //Serial.println("ID,YYYY,MM,DD,HH,MM,Temp[C],RH[%],DSTemp[C]");
+    char folder[15];
+    memset(folder, 0, sizeof folder);
+    sprintf(folder, "%04d%02d%02d", year, month, day);
+    SD.begin(10);
+    SD.mkdir(folder);
 
-    results = SD.open("results.txt", FILE_WRITE);
+    memset(path, 0, sizeof path);
+    sprintf(path, "%04d%02d%02d/%02d%02d%02d.csv", year, month, day, hour, minute, second);
+    results = SD.open(path, FILE_WRITE);
     results.println(String("Date(YYYY-MM-DD): ") + year + "-" + month + "-" + day);
     results.println(String("Time(HH:MM:SS): ") + hour + ":" + minute + ":" + second);
     results.println("ID,YYYY,MM,DD,HH,MM,Temp[C],RH[%],DSTemp[C]");
@@ -116,7 +121,7 @@ void setup()
 
     // First measurement
     Measurement();
-    LoggerSave(year, month, day, hour, minute, t, h, DStemp);
+    LoggerSave(path, year, month, day, hour, minute, t, h, DStemp);
     t0 = minute;
     //Serial.println("First Measurement done");
 
@@ -201,7 +206,7 @@ void loop()
 
     if (deltat == interval || deltat == (60 - interval))
     {
-        LoggerSave(year, month, day, hour, minute, t, h, DStemp);
+        LoggerSave(path, year, month, day, hour, minute, t, h, DStemp);
     }
 }
 
@@ -228,18 +233,17 @@ byte DateRead()
     second = dt.second;
     return year, month, day, hour, minute, second;
 }
-void LoggerSave(int year, byte month, byte day, byte hour, byte minute, float t, float h, float DStemp)
+void LoggerSave(char path[], int year, byte month, byte day, byte hour, byte minute, float t, float h, float DStemp)
 {
-
     id++;
     lcd.setCursor(11, 1);
     lcd.print(" SAVE");
-    Serial.println("LoggerSave: ");
-    Serial.println(id + String(",") + year + "," + month + "," + day + "," + hour + "," + minute + "," + t + +"," + h + "," + DStemp);
-    results = SD.open("results.txt", FILE_WRITE);
-    results.println(id + String(",") + year + "," + month + "," + day + "," + hour + "," + minute + "," + t + +"," + h + "," + DStemp);
+    results = SD.open(path, FILE_WRITE);
+    results.println(String(id) + "," + year + "," + month + "," + day + "," + hour + "," + minute + "," + t + "," + h + "," + DStemp);
     results.close();
-    delay(1000); // tested with 300ms
-    //Serial.println("Data saved");
+    delay(300); // tested with 300ms
     t0 = t1;
+    //Serial.println("LoggerSave: ");
+    //Serial.println(String(id) + "," + year + "," + month + "," + day + "," + hour + "," + minute + "," + t + "," + h + "," + DStemp);
+    // Serial.println("Data saved");
 }
